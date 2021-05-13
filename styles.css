@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -10,32 +11,33 @@ body {
 
     height: 40px;
     margin: 0 auto;
-    width:1200px;
+    width: 1200px;
 
 }
 
-.topbar-section{
+.topbar-section {
     border-left: 1px solid #CCCCCC;
-    height:110%;
+    height: 110%;
     float: left;
-    margin-left: 5px;;
+    margin-left: 5px;
+    ;
 }
 
-#bbc-logo{
+#bbc-logo {
     margin-top: 8px;
     width: 120px;
-    float:left;
-
-}
-
-#signin-img{
-    height:40px;
-    width:37px;
     float: left;
-    margin-top: 6px;
+
 }
 
-#signin-text{
+#signin-img {
+    height: 40px;
+    width: 37px;
+    float: left;
+    margin-top: 4px;
+}
+
+#signin-text {
     font-weight: bold;
     /* margin-top: 10px; */
     position: relative;
@@ -45,47 +47,215 @@ body {
     /* font-size: 90%; */
 }
 
-#notification-bell 
-{
-    width:40px;
-    float: left ;
-    height:40px;
+#notification-bell {
+    width: 40px;
+    float: left;
+    height: 40px;
     margin-top: 3.5px;
     margin-left: 2px;
-    
+
 }
 
-#bell-div{
+#bell-div {
     float: left;
 }
 
-.topbar-menu{
+.topbar-menu {
     font-weight: bold;
     padding: 13px 15px 0px 15px;
     height: 32px;
 }
 
 #dropdown {
-    width:13px;
-    height:13px;
+    width: 13px;
+    height: 13px;
     padding-right: 3rem;
 }
-#more{
+
+#more {
     padding-right: 1.2rem;
 }
-#search{
+
+#search {
     float: left;
     background-color: #A9A9A9;
     border: none;
     font-weight: bold;
     font-size: 14px;
     padding: 5px;
-    margin:5px;
+    margin: 9px;
 }
+
 #search-img {
-    width:25px;
-    height:27px;
-    margin-top: 4px;
+    width: 25px;
+    height: 27px;
+    margin-top: 7.5px;
     background-color: #A9A9A9;
 }
 
+.clear {
+    clear: both;
+}
+
+#menubar-container {
+    background-color: #BB1919;
+    height: 70px;
+    width: 100%;
+}
+
+#menu-bar-contents {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    padding-top: 10px;
+    float: left;
+}
+
+#local-news {
+
+    /* border: 1px solid lightgray; */
+
+    float: right;
+    margin-top: 13px;
+    font-size: 30px;
+}
+
+#local-news a {
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+
+#local-news a:hover {
+    text-decoration: underline;
+}
+
+#location-img {
+    width: 25px;
+    height: 26px;
+    margin-top: 3px;
+    padding-left: 5px;
+    float: right;
+    margin-left: 5px;
+    /* margin-top: 1px; */
+}
+
+#menu-bar-2-container {
+    width: 100%;
+    background-color: #A91717;
+}
+
+#menu-bar-2 {
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#menu-bar-2 a {
+    color: white;
+    border-right: 1px solid #BB4545;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 18px;
+    position: relative;
+    top: 6px;
+}
+
+
+#menu-bar-2 a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.no-border {
+    border: none !important;
+}
+
+#drop-down-img {
+    width: 10px;
+    position: relative;
+
+    left: -9px;
+}
+
+#page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#page-container h2 {
+    position: relative;
+    top: -14px;
+    /* font-size:25px; */
+    /* color:gray; */
+    font-weight: normal;
+    width: 124px;
+    border-bottom: 3px solid #a91717;
+}
+
+h3 a {
+    color: black;
+    text-decoration: none;
+    font-size: 37px;
+}
+
+h3 a:hover {
+    color: #1167a8;
+}
+
+#article-summary {
+    color: #5a5a5a;
+    font-size: large;
+    width: 255px;
+    float: left;
+}
+
+#article-summary p {
+    font-size: 16px;
+
+    color: #5a5a5a;
+}
+
+#tech-link {
+    text-decoration: none;
+    color: #a91717;
+}
+
+#article-summary p a:hover {
+    color: #1167a8;
+}
+
+#article-container {
+    float: left;
+    width: 670px;
+    border-right:1px solid #CCCCCC;
+    padding-right: 100px;
+}
+#article-container img{
+    width:470px;
+    height: 250px;
+    float: right;
+    position: relative;
+    top:-220px;
+    /* margin-top:20px; */
+    left:77px;
+}
+#summary-hr{
+    width:50px;
+    border-top: 1px solid #BB4545;
+    
+}
+
+.size{
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+}
